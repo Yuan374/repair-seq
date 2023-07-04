@@ -15,11 +15,7 @@ setup(
     url='https://github.com/jeffhussmann/repair-seq',
     description='processing, analysis, and visualization of data from Repair-seq screens',
 
-    packages=[
-        'repair_seq',
-        'repair_seq/visualize',
-        'repair_seq/test',
-    ],
+    packages=find_packages(),
 
     package_data={
         'repair_seq': metadata_fns,
